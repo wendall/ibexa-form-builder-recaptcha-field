@@ -3,7 +3,7 @@ ibexa_form_builder:
         recaptcha:
             name: 'reCAPTCHA'
             category: 'Basic form fields'
-            thumbnail: '/bundles/ibexaadminui/img/ez-icons.svg#captcha'
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#captcha'
             attributes:
                 help:
                     name: 'Help text'
