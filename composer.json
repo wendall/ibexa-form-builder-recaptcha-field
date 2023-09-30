@@ -1,0 +1,35 @@
+{
+  "name": "wendall/ibexa-form-builder-recaptcha-field",
+  "license": "MIT",
+  "type": "ibexa-bundle",
+  "description": "Bundle providing reCAPTCHA field for the Ibexa 4.6 Form Builder",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://updates.ez.no/ttl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Wendall\\IbexaFormBuilderRecaptchaBundle\\": "src/bundle/",
+      "Wendall\\IbexaFormBuilderRecaptcha\\": "src/lib/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Wendall\\IbexaFormBuilderRecaptchaBundle\\Tests\\": "src/bundle/Tests"
+    }
+  },
+  "require": {
+    "php": ">=7.3",
+    "ibexa/core": "~4.5",
+    "ibexa/form-builder": "~4.6",
+    "excelwebzone/recaptcha-bundle": "^1.5",
+    "symfony/http-kernel": "^5.0",
+    "symfony/config": "^5.0",
+    "symfony/dependency-injection": "^5.0",
+    "symfony/yaml": "^5.0",
+    "symfony/form": "^5.0",
+    "symfony/options-resolver": "^5.0"
+  }
+}
