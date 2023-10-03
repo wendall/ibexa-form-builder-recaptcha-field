@@ -9,4 +9,4 @@ services:
             $fieldIdentifier: 'recaptcha'
             $formType: 'Wendall\IbexaFormBuilderRecaptcha\Form\Type\ReCaptchaFieldType'
         tags:
-            - { name: ibexa.form_builder.field_mapper }
+            - { name: ibexa.form_builder.field.mapper }
