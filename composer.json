@@ -23,7 +23,7 @@
   "require": {
     "php": ">=7.3",
     "ibexa/core": "~4.5",
-    "ibexa/form-builder": "~4.6",
+    "ibexa/form-builder": "~4.5",
     "excelwebzone/recaptcha-bundle": "^1.5",
     "symfony/http-kernel": "^5.0",
     "symfony/config": "^5.0",
